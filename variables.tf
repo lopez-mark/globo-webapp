@@ -36,7 +36,7 @@ variable "api_key" {
   type        = string
   description = "(Required) API key for web app to talk to SaaS platform."
 }
-
+#new
 variable "tfe_organization" {
   type        = string
   description = "(Required) TFE organization"
