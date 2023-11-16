@@ -36,7 +36,7 @@ variable "api_key" {
   type        = string
   description = "(Required) API key for web app to talk to SaaS platform."
 }
-
+#new
 variable "tfe_organization" {
   type        = string
   description = "(Required) TFE organization"
@@ -47,4 +47,7 @@ variable "tfe_workspace_name" {
   description = "(Required) TFE workspace"
 }
 
-
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) URI of playbook that should be run"
+}
